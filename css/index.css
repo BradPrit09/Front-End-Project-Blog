@@ -1,14 +1,93 @@
-body{
-   background: url('background.jpg');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center;
-   background-size: cover;
-   margin: 0 !important;
-   background-size: 100% cover!important;
-   overflow:hidden;
-   display: block;
-} 
+body {
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100%;
+    overflow: hidden;
+    display: block;
+}
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-                                 
+
+#scribbler {
+    font-family: Satisfy;
+    color: blue;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#scribbler-tagline {
+    font-family: Satisfy;
+    color: black;
+    font-size: 70%;
+}
+
+.signinup-button {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+}
+
+#header-align {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.submit-btn {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    color: #fff;
+    padding: 0;
+    font-size: 22px;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: center; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 0;
+    align-content: space-evenly;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
