@@ -1,2 +1,53 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+header{
+    border: none;
+    padding: 5px;
+    text-align:start;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 10px;
+
+}
+h1 {
+    color:rgb(0,0,255);
+}
+h2 {
+    color:black;
+    text-space-collapse:collapse;
+    font-size:15px;
+    vertical-align:auto;
+}
+#bt1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:blue;
+    color:white;
+    border-color:blue;
+    padding-right:20px;
+    padding-left:25px;
+    padding-bottom:7px;
+    padding-top:5px;
+    text-align:center;
+    top: 3px;
+    right:125px;
+    position:absolute;
+}
+
+#bt2 {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:blue;
+    color:white;
+    border-color:blue;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:5px;
+    padding-top:7px;
+    text-align:center;
+    top: 3px;
+    right:10px;
+    position:absolute;
+}
+
+
