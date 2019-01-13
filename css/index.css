@@ -124,7 +124,7 @@ body {font-family: Calibri, Helvetica, sans-serif;}
 
 .create-modal-content {
    background-color: #fefefe;
-   margin: 20% auto; /* 15% from top and centered */
+   margin: 5% auto; /* 15% from top and centered */
    padding: 20px;
    width: 700px;
    height: 500px;
