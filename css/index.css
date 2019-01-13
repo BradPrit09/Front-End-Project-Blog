@@ -305,6 +305,18 @@ span.psw {
    }
 }
 
+#createPost02{
+  background-color:green;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  max-resolution: 0;
+}
+
+
 
 
                                  
