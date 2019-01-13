@@ -21,7 +21,7 @@ window.onclick = function (event) {
 /* Code for Create Post modal */
 
 //Get the modal
-var createPost = document.getElementById("myCreatePostModal");
+var createPost = document.getElementById("createPost01");
 
 //Get the button that opens the modal
 var secondBtn = document.getElementById("myCreatePostBtn");
